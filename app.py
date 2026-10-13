@@ -7,8 +7,6 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
-
 app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
@@ -19,6 +17,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 # Agregando un comentario a la nueva rama
+# Agregando un segundo comentario sobre el archivo
 # Load data from csv
 
 def load_data():
