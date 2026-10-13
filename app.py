@@ -19,6 +19,8 @@ app.config.suppress_callback_exceptions = True
 # Agregando un comentario a la nueva rama
 # Agregando un segundo comentario sobre el archivo
 # Load data from csv
+# Preparación de datos para la visualización y el pronóstico energético
+# Actualización realizada mediante trabajo colaborativo en GitHub
 
 def load_data():
     # Cargar los datos del archivo CSV en un DataFrame
